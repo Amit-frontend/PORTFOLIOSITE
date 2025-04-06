@@ -294,7 +294,7 @@ button {
 .btn {
   border-radius: 0;
   height: 3rem;
-  flex-basis: 50%;
+  /* flex-basis: 50%; */
   font-weight: 600;
 }
 
@@ -323,7 +323,14 @@ button {
 .btn:hover,
 .arrow:hover {
   cursor: pointer;
+  background-color: rgb(196, 196, 196);
+
 }
+
+/* .arrow:hover{
+  background-color: rgb(196, 196, 196);
+
+} */
 
 /* BOTTOM RIGHT CORNER */
 
@@ -355,10 +362,22 @@ button {
   border-radius: 2rem;
 }
 
+a{
+  text-decoration: none;
+  width: 50%;
+  background: rgb(245, 245, 245);
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: black;
+  font-family: "Poppins" , sans-serif;
+}
 
+a:hover{
+  background-color: rgb(196, 196, 196);
 
-
-
+}
 
 .resume {
 
